@@ -2,6 +2,10 @@
 https://stackoverflow.com/questions/51488523/custom-boootstrap-4-1-toggler-animation
 */
 
+.active>.nav-link {
+  color: #e64747!important;
+}
+
 .navbar-toggler {
   background: none !important;
   border: none !important;

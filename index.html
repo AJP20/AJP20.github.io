@@ -6,16 +6,17 @@
 	<title>AJP</title>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="images/favicon/site.webmanifest">
+	<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
 
 	<link rel="stylesheet" type="text/css" href="css/nav.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/07fde917dd.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -32,37 +33,52 @@
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Home</a>
+					<a class="nav-link" href="">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Services</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
+					<a class="nav-link" href="">About</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
 
-	<img src="images/profile_pic.png" class="img-fluid profile-pic" alt="Responsive image">
-
-	<h1 style="text-align: center;">Andrew Phillips</h1>
-
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-
-	<script src="js/tilt.jquery.js"></script>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
-<div class="footer">
-	<div class="social-media">
-		<a href="https://www.linkedin.com/in/andrewphillips20" target="_blank"><img class="button" src="images/LinkedIn.png" alt="Linkedin" hspace="20"></a>
-		<a href="https://github.com/Phillips" target="_blank"><img class="button" src="images/GitHub.png" alt="GitHub" width="37px" height="37px" hspace="20"></a>
-		<a href="https://twitter.com/ajp_20" target="_blank"><img class="button" src="images/Twitter.png" alt="Twitter" width="37px" height="37px" hspace="20"></a>
+	<div class="container">
+		<div class="row" style="max-width: 700px; margin: auto;">
+			<div class="col-sm" align="center">
+				<img src="images/profile_pic.png" class="img-fluid profile-pic" alt="Responsive image">
+				<p class="h2">Andrew Phillips</p>
+				<p class="lead" style="color:#343a40;">Software Engineer</p>
+			</div>
+			<div class="col-sm" style="margin: auto;" align="center">
+				<ul class="list-group list-group-flush" style="width: 240px; text-align: left;">
+					<li class="list-group-item">
+						<a href="mailto:me@ajp.dev"><img class="button" src="images/email.png" alt="Email" height="22" width="22" hspace="15"></a>
+						me@ajp.dev
+					</li>
+					<li class="list-group-item">
+						<a href="tel:+16034015335"><img class="button" src="images/phone.png" alt="Phone" height="22" width="22" hspace="15"></a>
+						+1 603 401 5335
+					</li>
+					<li class="list-group-item">
+						<img class="button" src="images/location.png" alt="Location" height="22px" width="22px" hspace="15">
+						Phoenix, AZ
+					</li>
+					<li class="list-group-item">
+						<a href="https://github.com/Phillips" target="_blank"><img class="button" src="images/GitHub.png" alt="GitHub" height="33" width="33" hspace="15"></a>
+						<a href="https://www.linkedin.com/in/andrewphillips20" target="_blank"><img class="button" src="images/LinkedIn.png" alt="Linkedin" height="33" width="33" hspace="15"></a>
+						<a href="https://twitter.com/ajp_20" target="_blank"><img class="button" src="images/Twitter.png" alt="Twitter" height="33" width="33" hspace="15"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="js/tilt.jquery.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>
