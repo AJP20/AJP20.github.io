@@ -21,8 +21,8 @@
     <script src="https://kit.fontawesome.com/07fde917dd.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" href="home.html">
+<nav class="navbar navbar-expand-md navbar-light">
+    <a class="navbar-brand" href="index.html">
         <div data-tilt data-tilt-scale="1.1" data-tilt-perspective="250">
             <img src="images/AJP_Logo.png" height="45px" alt="Responsive image">
         </div>
@@ -36,7 +36,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="home.html">Home</a>
+                <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="projects.html">Projects</a>
@@ -45,70 +45,66 @@
     </div>
 </nav>
 
-<div class="card-columns" style="padding: 50px">
+<div class="card-columns " style="padding: 20px; max-width: 1140px; margin: auto;">
     <div class="card">
-        <img class="card-img-top" src="..." alt="Card image cap">
+        <img class="card-img-top" src="images/nibble.png" alt="NibbleAt">
         <div class="card-body">
             <h5 class="card-title">NibbleAt</h5>
             <p class="card-text">NibbleAt is a React Native built app available on both the App Store and Google Play.
                 NibbleAt utilizes Yelps API for populating open restaurant within a 10 mile radius from the user.
                 We store users likes and dislikes in a PostgreSQL via a GraphQL API, this will enable us in the future
                 to recommend restaurants based off the users input</p>
-        </div>
-    </div>
-    <div class="card p-3">
-        <blockquote class="blockquote mb-0 card-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer class="blockquote-footer">
-                <small class="text-muted">
-                    Someone famous in <cite title="Source Title">Source Title</cite>
-                </small>
-            </footer>
-        </blockquote>
-    </div>
-    <div class="card">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-    </div>
-    <div class="card bg-primary text-white text-center p-3">
-        <blockquote class="blockquote mb-0">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-            <footer class="blockquote-footer">
-                <small>
-                    Someone famous in <cite title="Source Title">Source Title</cite>
-                </small>
-            </footer>
-        </blockquote>
-    </div>
-    <div class="card text-center">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-muted">- 2020</small></p>
+            <a href="https://nibble.at" target="_blank" class="btn btn-primary">More...</a>
         </div>
     </div>
     <div class="card">
-        <img class="card-img" src="..." alt="Card image">
+        <img class="card-img-top" src="images/ipa.jpg" alt="IPA">
+        <div class="card-body">
+            <h5 class="card-title">IPA</h5>
+            <p class="card-text">
+                IPA, API documentation that is transparent and straight forward.
+            </p>
+            <p class="card-text"><small class="text-muted">- 2021</small></p>
+            <a href="#" target="_blank" class="btn btn-primary">Coming soon...</a>
+        </div>
     </div>
-    <div class="card p-3 text-right">
-        <blockquote class="blockquote mb-0">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer class="blockquote-footer">
-                <small class="text-muted">
-                    Someone famous in <cite title="Source Title">Source Title</cite>
-                </small>
-            </footer>
-        </blockquote>
+    <div class="card">
+        <img class="card-img-top" src="images/movie.jpg" alt="StreamShip">
+        <div class="card-body">
+            <h5 class="card-title">StreamShip</h5>
+            <p class="card-text">StreamShip is a streaming site aggregator that includes the IMDB, Rotten Tomatoes,
+                and Metacritic score for movies that are available. StreamShip will take you directly to the movie
+                that you want to watch on the available streaming site. Written in Python the movie data was
+                scraped off of Netflix; with the ability to scale it is possible to expand to other streaming platforms.
+                A majority of streaming services have public websites that allow you to see what movies are
+                available without having a subscription ex <a href="https://www.netflix.com/browse/genre/34399" target="_blank">Netflix movies</a>.
+                All the data that is visible on StreamShip was last scraped on March 23 2020.
+            </p>
+            <p class="card-text"><small class="text-muted">- 2019</small></p>
+            <a href="https://phillips.github.io/StreamShip/" target="_blank" class="btn btn-primary">More...</a>
+        </div>
     </div>
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h5 class="card-title">Elevator Control System</h5>
+            <p class="card-text">I created a simple elevator control system, given X number of elevators for a 20 floor
+                building; a user can begin to fill up a queue of requested floors going up or down (randomly generated).
+            </p>
+            <p class="card-text"><small class="text-muted">- 2018</small></p>
+            <a href="https://github.com/AJP20/ElevatorControlSystem" target="_blank" class="btn btn-primary">More...</a>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="images/WhoU.png" alt="WhoU">
+        <div class="card-body">
+            <h5 class="card-title">WhoU</h5>
+            <p class="card-text">Wanting to learn Swift I created my first ever app that I put on the App Store, WhoU.
+                It was my attempt at making an eBusiness card, users could exchange contact information,
+                Snapchat, Instagram and Twitter accounts with a click of a button.
+            </p>
+            <p class="card-text"><small class="text-muted">- 2017</small></p>
+            <a href="https://github.com/AJP20/eTact" target="_blank" class="btn btn-primary">More...</a>
         </div>
     </div>
 </div>

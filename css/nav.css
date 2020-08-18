@@ -5,6 +5,10 @@ https://stackoverflow.com/questions/51488523/custom-boootstrap-4-1-toggler-anima
 .active>.nav-link {
   color: #e64747!important;
 }
+.navbar {
+  max-width: 1300px!important;
+  margin: auto;
+}
 
 .navbar-toggler {
   background: none !important;
@@ -25,7 +29,7 @@ https://stackoverflow.com/questions/51488523/custom-boootstrap-4-1-toggler-anima
   transition: all 0.2s;
 }
 
-.navbar-dark .navbar-toggler .icon-bar {
+.navbar-light .navbar-toggler .icon-bar {
   background: #e64747;
 }
 
